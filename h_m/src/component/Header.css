@@ -4,9 +4,9 @@
 
 }
 
-.screen {
-    border: 3px solid black;
-    width: 95%;
+#screen {
+    /* border: 3px solid black; */
+    width: 95.8%;
     height: 133px;
     background-color: rgb(250, 249, 248);
     padding: 16px 29px;
@@ -14,7 +14,7 @@
 
 }
 
-.header_top {
+#header_top {
 
     width: 100%;
     height: 68px;
@@ -24,17 +24,34 @@
     color: rgb(34, 34, 34)
 }
 
-.h_t_left {
+#h_t_left {
 
-    width: 30%;
+    width: 35%;
     height: 48px;
     display: flex;
 
-    border: 1px solid;
+    justify-content: space-between;
+
+    /* border: 1px solid red; */
 
 }
+#h_t_left>p{ 
+   font-family: "HM sans Regular";
 
-.h_t_middle {
+    font-size: 13px;
+    font-weight: 400;
+    padding-top: 5%;
+    line-height: 16px;
+  
+
+}
+#h_t_left>img{
+    width: 26px;
+    height: 26px;
+    margin-top: 18px;
+}
+
+#h_t_middle {
    
     width: 36%;
     height: 67px;
@@ -42,7 +59,7 @@
 
 }
 
-.h_t_left>li {
+/* #h_t_left>li {
     width: 25%;
     list-style-type: none;
     font-family: HM Sans Regular, HMSansHebrew-Regular, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, Osaka, メイリオ, Meiryo, ＭＳ Ｐゴシック, MS PGothic, sans-serif;
@@ -50,32 +67,25 @@
     font-weight: 400;
     padding-top: 5%;
     white-space: nowrap;
-/* 
-    border: 1px solid red; */
-    
-}
 
-.h_t_left>li>img {
+    
+} */
+
+/* #h_t_left>li>img {
     height: 20px;
     width: 25px;
-    border: 1px solid;
-    margin-right: 32%;
-
-
    
+    margin-right: 32%;
+} */
 
-
-
-}
-
-.h_t_middle>img {
+#h_t_middle>img {
     height: 40px;
     width: 60px;
     height: 40px;
     padding-top: 24px;
 }
 
-.h_t_right {
+#h_t_right {
  
     width: 33%;
     height: 27px;
@@ -85,7 +95,7 @@
    
 
 }
-.main_h_t_right_l{
+#main_h_t_right_l{
   
     margin-left: 28%;
     display: flex;
@@ -93,23 +103,23 @@
 
 }
 
-.main_h_t_right_l>img{
+#main_h_t_right_l>img{
     width: 20px;
     height: 20px;
    
     margin-right: 8px;
    
 }
-.main_h_t_right_m>img,.main_h_t_right_r>img{
+#main_h_t_right_m>img,#main_h_t_right_r>img{
     width: 22px;
     height: 22px;
    
     margin-right: 8px;
 
 }
-.main_h_t_right_l>p,.main_h_t_right_m>p{
-
-    font-family: HM Sans Regular, HMSansHebrew-Regular, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, Osaka, メイリオ, Meiryo, ＭＳ Ｐゴシック, MS PGothic, sans-serif;
+#main_h_t_right_l>p,#main_h_t_right_m>p{
+    font-family: "HM Sans Regular";
+    /* font-family: HM Sans Regular, HMSansHebrew-Regular, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, Osaka, メイリオ, Meiryo, ＭＳ Ｐゴシック, MS PGothic, sans-serif; */
     font-size: 13px;
     font-weight: 400;
     padding-top: 5%;
@@ -118,66 +128,82 @@
     
 
 }
-.main_h_t_right_r>p{ font-family: HM Sans Regular, HMSansHebrew-Regular, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, Osaka, メイリオ, Meiryo, ＭＳ Ｐゴシック, MS PGothic, sans-serif;
+#main_h_t_right_r>p{
+    font-family: "HM Sans Regular";
+    /* font-family: HM Sans Regular, HMSansHebrew-Regular, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, Osaka, メイリオ, Meiryo, ＭＳ Ｐゴシック, MS PGothic, sans-serif; */
     font-size: 13px;
     font-weight: 400;
-    padding-top: 3.5%;
+    padding-top: 3%;
     line-height: 16px;
 
 }
-.main_h_t_right_m,.main_h_t_right_r{
+#main_h_t_right_m,#main_h_t_right_r{
 
    
     display: flex;
     height: 24px;
+    
 
 }
-.header_bottom{
+#header_bottom{
     width: 75%;
     height: 33px;
     
-    margin-left: 25%;
+    margin-left: 23%;
     display: flex;
     justify-content: space-between;
   
 }
-.h_b_left{
+#h_b_left{
     width: 70%;
     height: 100%;
+    /* border: 1px solid blue; */
   
     display: flex;
     justify-content: space-between;
 }
-.h_b_left>li{
-
+#h_b_left>li{
+    font-family: "HM Sans Regular";
     list-style-type: none;
-    font-family: HM Sans Regular, HMSansHebrew-Regular, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, Osaka, メイリオ, Meiryo, ＭＳ Ｐゴシック, MS PGothic, sans-serif;
+    /* font-family: HM Sans Regular, HMSansHebrew-Regular, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, Osaka, メイリオ, Meiryo, ＭＳ Ｐゴシック, MS PGothic, sans-serif; */
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
     padding-top: 1%;
     white-space: nowrap;
 }
-.h_b_right{
-    width: 25%;
+#h_b_right{
+    width: 22%;
     height: 100%;
+    /* border: 1px solid red; */
    
 }
-.search{
+#search{
     border-bottom:1px solid black ;
-    height: 16px;
+    height: 95%;
    
     width: 80%;
-    
+    display: flex;
+    margin-left: 70px;
     
     
 }
-.search>p{
-    font-family: HM Sans Regular, HMSansHebrew-Regular, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, Osaka, メイリオ, Meiryo, ＭＳ Ｐゴシック, MS PGothic, sans-serif;
+#search>p{
+    font-family: "HM Sans Regular";
+    /* font-family: HM Sans Regular, HMSansHebrew-Regular, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, Osaka, メイリオ, Meiryo, ＭＳ Ｐゴシック, MS PGothic, sans-serif; */
     font-size: 13px;
-    font-weight: 400;
-    line-height: 16px;
+    font-weight: 300;
+    line-height: 36px;
+    margin-left: 10px;
   
+}
+#search>img{
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    
+ 
+    
 }
 
 
