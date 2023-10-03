@@ -1,0 +1,60 @@
+#signin_screen{
+    width: 99.8%;
+    height: 661px;
+    border: 2px solid;
+}
+#signin_main{
+    width: 500px;
+    height: 573px;
+    border: 1px solid red;
+    margin: auto;
+   
+}
+#signin_box{
+    width: 500px;
+    height: 468px;
+    padding: 24px 0px 32px 0px;
+    margin: 24px 0px 24px 0px;
+    border: 1px solid green;
+    background-color: rgb(250,249,248);
+
+}
+#signin_header{
+    width: 436px;
+    height: 28px;
+    padding: 0px 32px;
+    margin-bottom: 16px;
+    border: 1px dotted;
+    display: flex;
+    justify-content: space-between;
+}
+#signin_header>h2{
+    width: 372.007px;
+    height: 28px;
+    font-family: "HM Sans Latin SemiBold";
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 600;
+    text-align: left;
+    color: #222222;
+    margin-bottom: 8px;
+
+}
+#signin_sub_header{
+    width: 436px;
+    height: 32px;
+    padding: 0px 32px;
+
+}
+#signin_sub_header>p{
+    width: 436px;
+    height: 32px;
+    margin: 16px 0px 32px 0px;
+    font-family: "HM Sans Regular";
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: rgb(34, 34, 34);
+
+}

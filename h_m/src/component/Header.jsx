@@ -37,7 +37,7 @@ const Header = () => {
           <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/H%26M-Logo.svg" alt='Logo'></img>
         </div>
         <div id='h_t_right'>
-          <div id='main_h_t_right_l'>
+          <div id='main_h_t_right_l' >
             <img src={user} alt=''>
 
             </img>
