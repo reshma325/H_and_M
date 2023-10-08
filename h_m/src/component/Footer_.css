@@ -1,18 +1,39 @@
-#footer_main{
+#f_top_1>li:hover,
+#f_top_2>li:hover,
+#f_top_3>li:hover,
+#f_top_4>div>p:hover
+ {
+    transform: scale(1);
+    text-decoration: underline 1px rgb(34, 34, 34);
+}
+
+#fb:hover,#twitter:hover,#insta:hover,#youtube:hover,#pinterest:hover{
+    transform: scale(1);
+    color: rgb(34, 34, 34);
+}
+
+
+
+
+
+
+#footer_main {
     /* border: 5px solid ; */
     width: 95.4%;
     height: 426px;
     background-color: rgb(228, 228, 228);
     padding: 64px 32px;
 }
-#main{
+
+#main {
     width: 960px;
     height: 100%;
     margin-left: 190px;
     margin-right: 190px;
     /* border: 1px solid; */
 }
-#f_top{
+
+#f_top {
     width: 928px;
     height: 229.039px;
     padding-left: 16px;
@@ -23,25 +44,36 @@
 
 
 }
-#f_top_1,#f_top_2,#f_top_3,#f_top_4{
+
+#f_top_1,
+#f_top_2,
+#f_top_3,
+#f_top_4 {
     /* border: 1px solid red; */
     width: 220px;
     height: 100%;
 }
-#f_top_1>p,#f_top_2>p,#f_top_3>p{
+
+#f_top_1>p,
+#f_top_2>p,
+#f_top_3>p {
     font-family: "HM Sans Latin SemiBold";
     /* font-family:HM Sans Semi Bold, HMSansHebrew-SemiBold, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, メイリオ, Meiryo,   ; */
     font-size: 13px;
     font-weight: 500;
     line-height: 16.25px;
     text-align: start;
-    color: rgb(34,34,34);
+    color: rgb(34, 34, 34);
     margin-bottom: 16px;
     vertical-align: baseline;
-  
-    
+
+
+
 }
-#f_top_1>li,#f_top_2>li,#f_top_3>li{
+
+#f_top_1>li,
+#f_top_2>li,
+#f_top_3>li {
 
     margin-bottom: 8px;
     list-style: none;
@@ -53,10 +85,13 @@
     vertical-align: baseline;
     text-align: left;
     color: #222;
+    cursor: pointer;
 
 
 }
-#f_top_3>li:nth-child(9){ margin-bottom: 8px;
+
+#f_top_3>li:nth-child(9) {
+    margin-bottom: 8px;
     list-style: none;
     font-family: "HM Sans Regular";
     /* font-family: HM Sans Regular, HMSansHebrew-Regular, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, Osaka, メイリオ, Meiryo, ＭＳ Ｐゴシック, MS PGothic, sans-serif; */
@@ -68,52 +103,58 @@
     color: #222;
 
 }
-#f_top_4>p{ 
+
+#f_top_4>p {
     font-family: "HM Sans Regular";
     /* font-family:HM Sans Semi Bold, HMSansHebrew-SemiBold, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, メイリオ, Meiryo,   ; */
     font-size: 13px;
     font-weight: 500;
     line-height: 16.25px;
     text-align: start;
-    color: rgb(34,34,34);
+    color: rgb(34, 34, 34);
     margin-bottom: 16px;
     vertical-align: baseline;
     margin-top: 10px;
 
 }
-#f_top_4>div{
+
+#f_top_4>div {
     display: flex;
     margin-top: 32px;
- 
+
 }
 
-#f_top_4>div>p{
+#f_top_4>div>p {
     font-family: "HM Sans Regular";
     /* font-family:HM Sans Semi Bold, HMSansHebrew-SemiBold, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, メイリオ, Meiryo,   ; */
     font-size: 13px;
     font-weight: 500;
     line-height: 16.25px;
     text-align: start;
-    color: rgb(34,34,34);
+    color: rgb(34, 34, 34);
     margin-bottom: 16px;
     vertical-align: baseline;
+    cursor: pointer;
 
-    
 }
-#f_top_4>div>img{
+
+#f_top_4>div>img {
     width: 18px;
     height: 18px;
     margin-left: 20px;
+    cursor: pointer;
 
-    
+
 }
-#f_bottom{
+
+#f_bottom {
     width: 960px;
     height: 180.60px;
     /* border: 1px solid green; */
-    
+
 }
-#f_bottom_1{
+
+#f_bottom_1 {
     width: 100%;
     height: 48px;
     /* border: 1px solid; */
@@ -124,55 +165,66 @@
     justify-content: center;
     width: 80%;
 }
-#f_bottom_1>li{
+
+#f_bottom_1>li {
     list-style: none;
     width: 48px;
-margin-top: 10px;
-margin-right: 0px;
-  
+    margin-top: 10px;
+    margin-right: 0px;
+    /* border: 1px solid green; */
 
-    
+
+
 }
-#f_bottom_1>li>img{
-    width: 22px;
-    height: 22px;
-    color: black;
-   
+
+#fb,#twitter,#insta,#youtube,#pinterest {
+    /* width: 22px;
+    height: 22px; */
+    color: rgb(2, 2, 2);
+    cursor: pointer;
+    /* border: 1px solid red; */
+
 }
-#f_bottom_2{
+
+#f_bottom_2 {
     /* border: 1px solid; */
     width: 100%;
     height: 16px;
 }
-#f_bottom_2>p{
+
+#f_bottom_2>p {
     font-family: "HM Sans Regular";
     /* font-family:HM Sans Semi Bold, HMSansHebrew-SemiBold, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, メイリオ, Meiryo,   ; */
     font-size: 13px;
     font-weight: 400;
     line-height: 16.25px;
     text-align: start;
-    color: rgb(34,34,34);
+    color: rgb(34, 34, 34);
     margin-bottom: 16px;
     vertical-align: baseline;
     text-align: center;
-    
+
 
 }
-#f_bottom_3{
+
+#f_bottom_3 {
     /* border: 1px solid; */
     width: 100%;
     height: 48px;
     margin-top: 32px;
     margin-bottom: 4px;
-   
+
 }
-#f_bottom_3>img{
+
+#f_bottom_3>img {
     width: 36px;
     height: 24px;
     color: black;
+    cursor: pointer;
     /* margin-top: 10px; */
 }
-#f_bottom_4{
+
+#f_bottom_4 {
     width: 7%;
     height: 16px;
     /* border: 1px solid; */
@@ -181,17 +233,20 @@ margin-right: 0px;
     margin: auto;
 
 }
-#f_bottom_4>:nth-child(1){
-    font-family:"HM Sans Regular";
+
+#f_bottom_4>:nth-child(1) {
+    font-family: "HM Sans Regular";
     font-size: 11px;
     font-weight: 400;
     line-height: 15.9616px;
     vertical-align: baseline;
     text-align: center;
     color: #222222;
+    cursor: pointer;
 }
-#f_bottom_4>:nth-child(2){
-    font-family:"HM Sans Regular";
+
+#f_bottom_4>:nth-child(2) {
+    font-family: "HM Sans Regular";
     font-size: 13px;
     font-weight: 400;
     line-height: 15.9616px;

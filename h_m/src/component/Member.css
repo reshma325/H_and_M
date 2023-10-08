@@ -1,0 +1,384 @@
+#m_newdiv{
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    width: 100%; 
+    height:100%;
+  overflow-x: hidden;
+
+
+}
+#member_screen{
+    width: 99.8%;
+    height: 661px;
+    /* border: 2px solid blue; */
+}
+#member_main{
+    width: 500px;
+    height: 661px;
+    /* border: 1px solid red; */
+    margin: auto;
+   
+ 
+    position: fixed; 
+    top: 50px;
+    left: 450px; 
+}
+#member_box{
+    width: 500px;
+    height: 520px;
+    padding: 24px 0px 32px 0px;
+    margin: 24px 0px 24px 0px;
+    /* border: 1px solid green; */
+    background-color: rgb(250, 249, 248);
+    overflow: auto;
+    overflow-x: hidden;
+}
+#member_header{
+    width: 417px;
+    height: 28px;
+    padding: 0px 32px;
+    margin-bottom: 16px;
+    /* border: 1px dotted; */
+    display: flex;
+    justify-content: space-between;
+}
+#member_header>h2{
+    width: 372.007px;
+    height: 28px;
+    font-family: "HM Sans Latin SemiBold";
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 600;
+    text-align: left;
+    color: #222222;
+    margin-bottom: 8px;
+}
+#member_header>img{
+    cursor: pointer;
+}
+#member_sub_header{
+    width: 436px;
+    height: 32px;
+    padding: 0px 32px;
+}
+#member_sub_header>p{
+    width: 436px;
+    height: 32px;
+    margin: 16px 0px 32px 0px;
+    font-family: "HM Sans Regular";
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: rgb(34, 34, 34);
+}
+#member_form{
+    width: 436px;
+    height: 743px;
+    /* border: 1px dotted blue; */
+    margin: auto;
+}
+#m_form1{
+    width: 417px;
+    height: 84px;
+
+    /* border: 1px solid green; */
+
+}
+#m_form1>p {
+    width: 100%;
+    height: 20px;
+
+    text-align: left;
+    font-family: "HM Sans Regular";
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+    color: rgb(34, 34, 34);
+}
+
+#m_form1>p>span {
+    width: 100%;
+    height: 20px;
+
+    text-align: left;
+    font-family: "HM Sans Regular";
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+    color: rgb(196, 3, 3);
+}
+
+#m_form1>input {
+    width: 95.8%;
+    height: 30px;
+    border: 1px solid #d0d0d0;
+    padding: 8px;
+    text-align: left;
+    font-family: "HM Sans Regular";
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+}
+#m_form2{
+    width: 417px;
+    height: 84px;
+ 
+
+    /* border: 1px solid green; */
+
+}
+#m_form2>p {
+    width: 100%;
+    height: 20px;
+
+    text-align: left;
+    font-family: "HM Sans Regular";
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+    color: rgb(34, 34, 34);
+}
+
+#m_form2>p>span {
+    width: 100%;
+    height: 20px;
+
+    text-align: left;
+    font-family: "HM Sans Regular";
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+    color: rgb(196, 3, 3);
+}
+
+#m_form2>input {
+    width: 95.8%;
+    height: 30px;
+    border: 1px solid #d0d0d0;
+    padding: 8px;
+    text-align: left;
+    font-family: "HM Sans Regular";
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+}
+#m_form3{
+    width: 417px;
+    height: 85px;
+
+    /* border: 1px solid green; */
+
+}
+#m_form3>div{
+    width: 417px;
+    height: 66px;
+    display: flex;
+
+    border: 1px solid green;
+
+}
+#m_form3>p:nth-child(1) {
+    width: 100%;
+    height: 20px;
+
+    text-align: left;
+    font-family: "HM Sans Regular";
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+    color: rgb(34, 34, 34);
+}
+
+#m_form3>p>span {
+    width: 100%;
+    height: 20px;
+
+    text-align: left;
+    font-family: "HM Sans Regular";
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+    color: rgb(196, 3, 3);
+}
+
+#m_form3>div>input {
+    width: 95.8%;
+    height: 49px;
+    border: 1px solid #d0d0d0;
+    padding: 8px;
+    text-align: center;
+    font-family: "HM Sans Regular";
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+#mspan1,#mspan2{
+    text-align: center;
+    font-family: "HM Sans Regular";
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+    margin-top: 25px;
+    color: rgb(112, 112, 112);
+    border: none;
+    background-color: white;
+}
+#m_form3>p:nth-child(3){
+    text-align: left;
+    font-family: "HM Sans Regular";
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+    color:rgb(112, 112, 112)
+
+}
+
+#m_form4{
+    width: 369px;
+    height: 24px;
+    padding: 16px 24px;
+    background-color: white;
+    margin-top: 18px;
+
+    /* border: 1px solid green; */
+
+}
+#m_form4>p{text-align: left;
+    font-family: "HM Sans Regular";
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+    color: rgb(34, 34, 34);
+}
+#m_form5{
+    width: 417px;
+    height: 32px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5px;
+}
+#m_form5>input{
+    width: 22px;
+    height: 22px;
+    margin: 3px 3px 3px 0px;
+    cursor: pointer;
+}
+#m_form5>p{
+    padding-left: 3px;
+    width: 417px;
+    height: 16px;
+    font-family: "HM Sans Regular";
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+    text-align: left;
+
+
+}
+#m_form6{
+    width: 393px;
+    height: 80px;
+    padding-left: 24px;
+    /* border: 1px solid; */
+    margin-top: 20px;
+}
+#m_form6>p{
+    font-family: "HM Sans Regular";
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+#m_form7{
+    width: 417px;
+    height: 32.4px;
+    margin: 16px 0px;
+
+}
+#m_form7>p:nth-child(1){
+    font-family: "HM Sans Regular";
+    font-size: 11.008px;
+    line-height: 16px;
+    font-weight: 400;
+    text-align: left;
+    color:rgb(112, 112, 112)
+}
+#m_form7>p:nth-child(2){
+    font-family: "HM Sans Regular";
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+    text-align: left;
+    text-decoration:underline solid rgb(112, 112, 112);
+    color:rgb(112, 112, 112);
+    cursor: pointer;
+}
+#m_form8{
+    width: 417px;
+    height: 32.4px;
+    margin: 16px 0px;
+
+}
+#m_form8>p{
+    font-family: "HM Sans Regular";
+    font-size: 11.008px;
+    line-height: 16px;
+    font-weight: 400;
+    text-align: left;
+    color:rgb(112, 112, 112)
+}
+#m_form8>p>a{
+    font-family: "HM Sans Regular";
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+    text-align: left;
+    text-decoration:underline solid rgb(112, 112, 112);
+    color:rgb(112, 112, 112);
+    cursor: pointer;
+}
+#m_form9{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    width: 438.5px;
+    height: 49px;
+    padding: 16px;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: "HM Sans Latin SemiBold";
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 500;
+    text-align: center;
+    cursor:pointer;
+
+}
+
+ 
+#m_form10{
+    width: 402.5px;
+    height: 16px;
+    border: 1px solid rgb(34, 34, 34);
+    padding: 16px;
+    margin: 16px;
+    margin: auto;
+    cursor:pointer;
+
+
+}
+#m_form10>p{
+    font-family: "HM Sans Latin SemiBold";
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 500;
+    text-align: center;
+  
+}
+
+
+
+
+

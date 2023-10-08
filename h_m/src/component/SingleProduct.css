@@ -1,0 +1,64 @@
+#single_screen {
+    width: 99.8%;
+    height: 4298px;
+    border: 2px solid;
+}
+#single_breadcrumb {
+    width: 96.5%;
+    height: 16px;
+    border: 1px solid;
+    padding: 16px 24px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+}
+#single_breadcrumb>p {
+    font-family: "HM Sans Regular";
+    font-size: 11px;
+    line-height: 14px;
+    font-weight: 400;
+    color: rgb(34, 34, 34);
+    text-align: center;
+    cursor: pointer;
+}
+
+#single_breadcrumb>span {
+    font-family: "HM Sans Regular";
+    font-size: 11px;
+    line-height: 14px;
+    font-weight: 400;
+    color: rgb(229, 0, 16);
+    text-align: center;
+    cursor: pointer;
+}
+#single_main{
+    width: 100%;
+    height: 2791px;
+    border: 1px solid blue;
+}
+#single_product{
+    width: 95.3%;
+    height: 2783px;
+    margin-bottom: 90px;
+    padding: 4px 32px;
+    border: 1px solid green;
+}
+#sp_card{
+    width: 100%;
+    height: 2658px;
+    margin-top: 4px;
+    margin-bottom: 30px;
+    padding-bottom: 90px;
+    border: 1px dotted black;
+    display: flex;
+}
+#left_card{
+    width: 66.25%;
+    height: 100%;
+    border: 1px solid red;
+}
+#right_card{
+    width: 33.9%;
+    height:100%;
+    border: 1px solid blue;
+}

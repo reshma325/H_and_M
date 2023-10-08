@@ -1,12 +1,17 @@
 import React from 'react'
+import './SignIn'
 import "../component/Homepage.css"
 import right from '../images/right_arrow.png'
 import down from '../images/down.png'
 
 
+
+
 const Homepage = () => {
+
   return (
     <div id='home_screen' >
+       
       <div id='home_main'>
         <div id='t_bar'>
           <p>Members get free shipping above Rs.1999</p>
@@ -345,7 +350,8 @@ const Homepage = () => {
 
             </div >
           </div>
-        </div> <div id='row_img_3'>
+        </div> 
+        <div id='row_img_3'>
           <div id='row_img_3_header'>
             <h3>
               Recently viewed
@@ -402,6 +408,10 @@ const Homepage = () => {
               </div>
 
             </div>
+
+          </div>
+          <div id='magzine'>
+            
 
           </div>
 

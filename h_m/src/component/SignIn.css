@@ -1,34 +1,56 @@
-#signin_screen{
+#newdiv{
+    position: absolute;
+    top: 0;
+
+    background-color: rgba(0, 0, 0, 0.5); 
+    width: 100%; 
+    height:100%;
+    overflow: hidden;
+
+
+}
+
+
+#signin_screen {
     width: 99.8%;
     height: 661px;
-    border: 2px solid;
+    /* border: 2px solid; */
+
 }
-#signin_main{
+
+#signin_main {
     width: 500px;
     height: 573px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: auto;
-   
+ 
+    position: fixed;
+    top: 50px;
+    left: 450px;
+
 }
-#signin_box{
+
+#signin_box {
     width: 500px;
     height: 468px;
     padding: 24px 0px 32px 0px;
     margin: 24px 0px 24px 0px;
-    border: 1px solid green;
-    background-color: rgb(250,249,248);
+    /* border: 1px solid green; */
+    background-color: rgb(250, 249, 248);
 
 }
-#signin_header{
+
+#signin_header {
     width: 436px;
     height: 28px;
     padding: 0px 32px;
     margin-bottom: 16px;
-    border: 1px dotted;
+    /* border: 1px dotted; */
     display: flex;
     justify-content: space-between;
 }
-#signin_header>h2{
+
+#signin_header>h2 {
     width: 372.007px;
     height: 28px;
     font-family: "HM Sans Latin SemiBold";
@@ -40,13 +62,18 @@
     margin-bottom: 8px;
 
 }
-#signin_sub_header{
+#signin_header>img{
+    cursor: pointer;
+}
+
+#signin_sub_header {
     width: 436px;
     height: 32px;
     padding: 0px 32px;
 
 }
-#signin_sub_header>p{
+
+#signin_sub_header>p {
     width: 436px;
     height: 32px;
     margin: 16px 0px 32px 0px;
@@ -56,5 +83,211 @@
     font-weight: 400;
     text-align: center;
     color: rgb(34, 34, 34);
+
+}
+
+#signin_form {
+    width: 436px;
+    height: 263.426px;
+    /* border: 1px dotted blue; */
+    margin: auto;
+}
+
+#form_1 {
+    width: 100%;
+    height: 68px;
+    margin-bottom: 16px;
+    /* border: 1px solid green; */
+}
+
+#form_1>p {
+    width: 100%;
+    height: 20px;
+
+    text-align: left;
+    font-family: "HM Sans Regular";
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+    color: rgb(34, 34, 34);
+}
+
+#form_1>p>span {
+    width: 100%;
+    height: 20px;
+
+    text-align: left;
+    font-family: "HM Sans Regular";
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+    color: rgb(196, 3, 3);
+}
+
+#form_1>input {
+    width: 95.8%;
+    height: 30px;
+    border: 1px solid #d0d0d0;
+    padding: 8px;
+    text-align: left;
+    font-family: "HM Sans Regular";
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+#form_2 {
+    width: 100%;
+    height: 68px;
+    margin-bottom: 16px;
+    /* border: 1px solid green; */
+}
+
+#form_2>p {
+    width: 100%;
+    height: 20px;
+
+    text-align: left;
+    font-family: "HM Sans Regular";
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+    color: rgb(34, 34, 34);
+}
+
+#form_2>p>span {
+    width: 100%;
+    height: 20px;
+
+    text-align: left;
+    font-family: "HM Sans Regular";
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+    color: rgb(196, 3, 3);
+}
+
+#form_2>input {
+    width: 95.8%;
+    height: 30px;
+    border: 1px solid #d0d0d0;
+    padding: 8px;
+    text-align: left;
+    font-family: "HM Sans Regular";
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+#form_3 {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid green; */
+    margin-top: -15px;
+}
+
+#left {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#left>input {
+    /* border: 1px solid blue; */
+    width: 22px;
+    height: 22px;
+    margin: 3px 3px 3px 4px;
+    cursor:pointer;
+}
+
+#left>p {
+    padding-left: 3px;
+    width: 95.5px;
+    height: 16px;
+    font-family: "HM Sans Regular";
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+    text-align: left;
+
+    margin-top: 5px;
+}
+
+#right {
+    width: 110px;
+    height: 48px;
+    cursor:pointer;
+
+}
+
+#right>p {
+    font-family: "HM Sans Regular";
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: underline solid rgb(34, 34, 34);
+    margin-top: 5px;
+    margin-right: 2px;
+}
+
+#form_4 {
+    margin-top: 10px;
+    width: 438.5px;
+    height: 49px;
+    padding: 16px;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: "HM Sans Latin SemiBold";
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 500;
+    text-align: center;
+    cursor:pointer;
+}
+
+#member {
+    width: 436px;
+    height: 115px;
+    padding-top: 16px;
+    /* border: 1px solid; */
+}
+
+#member_top {
+    width: 402.5px;
+    height: 16px;
+    border: 1px solid rgb(34, 34, 34);
+    padding: 16px;
+    cursor: pointer;
+
+}
+
+#member_top>p {
+    font-family: "HM Sans Latin SemiBold";
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+#member_bottom {
+    width: 402.5px;
+    height: 16px;
+    padding: 16px;
+    margin-top: 10px;
+    
+}
+
+#member_bottom>p {
+    font-family: "HM Sans Regular";
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+    text-decoration: underline solid rgb(34, 34, 34);
+    text-align: center;
+    cursor:pointer;
+
 
 }

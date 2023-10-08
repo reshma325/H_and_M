@@ -1,3 +1,44 @@
+#otherdiv_footer>ul>li:nth-child(1):hover,
+#otherdiv_footer>ul>li:nth-child(2):hover,
+#otherdiv_footer>ul>li:nth-child(3):hover,
+#otherdiv_footer>ul>li:nth-child(4):hover,
+#otherdiv_footer>ul>li:nth-child(5):hover,
+#otherdiv_footer>ul>li:nth-child(6):hover,
+#small_img_1_foot>P:nth-child(2):hover,
+#small_img_2_foot>P:nth-child(2):hover,
+#small_img_1_foot>P:nth-child(1):hover,
+#small_img_2_foot>P:nth-child(1):hover,
+#otherdiv_6_bt>p:nth-child(1):hover,
+#otherdiv_6_bt>p:nth-child(2):hover,
+#otherdiv_2_footer>p:hover,
+#otherdiv_3_footer>p:hover,
+#otherdiv_4_footer>p:hover,
+#otherdiv_5_footer>p:hover,
+
+#small_img_2_foot>P:nth-child(3):hover,
+#small_img_2_foot>P:nth-child(4):hover {
+    background-color: rgb(230, 230, 230)
+}
+
+#t_bar>p:nth-child(3):hover,
+#list2_text1>p:nth-child(1):hover,
+#list2_text2>p:nth-child(1):hover,
+#list2_text3>p:nth-child(1):hover,
+#list2_text4>p:nth-child(1):hover ,
+#list3_text1>p:nth-child(1):hover,
+#list3_text2>p:nth-child(1):hover,
+#list3_text3>p:nth-child(1):hover,
+#list3_text4>p:nth-child(1):hover {
+    transform: scale(1);
+    text-decoration: underline 1px rgb(34, 34, 34);
+
+}
+
+
+
+
+
+
 #home_screen {
     width: 95.8%;
     height: 5727px;
@@ -24,7 +65,8 @@
     height: 32px;
 }
 
-#t_bar>p {
+#t_bar>p:nth-child(1),
+#t_bar>p:nth-child(2) {
     width: 33%;
     height: 16px;
     padding: 8px;
@@ -34,6 +76,21 @@
     line-height: 16px;
     text-align: center;
 }
+
+#t_bar>p:nth-child(3) {
+    width: 33%;
+    height: 16px;
+    cursor: pointer;
+    padding: 8px;
+    font-family: "HM Sans Regular";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+}
+
+
+
 
 #big_img_1 {
     width: 100%;
@@ -115,6 +172,7 @@
 
 #otherdiv_footer>ul>li:nth-child(1) {
     width: 53px;
+    cursor: pointer;
     height: 19px;
     padding: 7px 7px 7px 7px;
     margin-right: 8px;
@@ -127,7 +185,10 @@
     color: #222222;
 }
 
+
+
 #otherdiv_footer>ul>li:nth-child(2) {
+    cursor: pointer;
     width: 41px;
     height: 19px;
     padding: 7px 7px 7px 7px;
@@ -142,6 +203,7 @@
 }
 
 #otherdiv_footer>ul>li:nth-child(3) {
+    cursor: pointer;
     width: 66px;
     height: 19px;
     padding: 7px 7px 7px 7px;
@@ -156,6 +218,7 @@
 }
 
 #otherdiv_footer>ul>li:nth-child(4) {
+    cursor: pointer;
     width: 96px;
     height: 19px;
     padding: 8px 8px 8px 8px;
@@ -171,6 +234,7 @@
 
 #otherdiv_footer>ul>li:nth-child(5) {
     width: 52px;
+    cursor: pointer;
     height: 19px;
     padding: 7px 7px 7px 7px;
     margin-right: 8px;
@@ -184,6 +248,7 @@
 }
 
 #otherdiv_footer>ul>li:nth-child(6) {
+    cursor: pointer;
     width: 58px;
     height: 19px;
     padding: 8px 8px 8px 8px;
@@ -287,10 +352,13 @@
     font-weight: 500;
     text-align: center;
     color: #222222;
+    cursor: pointer;
 }
+
 
 #small_img_1_foot>P:nth-child(2),
 #small_img_2_foot>P:nth-child(2) {
+    cursor: pointer;
     width: 70.782px;
     height: 16px;
     padding: 8px 8px 8px 8px;
@@ -318,6 +386,7 @@
     font-weight: 500;
     text-align: center;
     color: #222222;
+    cursor: pointer;
 }
 
 #small_img_2_foot>P:nth-child(4) {
@@ -332,12 +401,14 @@
     font-weight: 500;
     text-align: center;
     color: #222222;
+    cursor: pointer;
 }
 
 #image_1 {
     width: 100%;
     height: 640px;
     margin-top: 24px;
+    cursor: pointer;
 }
 
 #image_1>span>img {
@@ -355,8 +426,8 @@
     left: 223px;
     bottom: 342.199px;
     right: 79.410px;
-    background: linear-gradient(to top, rgba(81, 81, 81, 0.3), rgba(115, 115, 115, 0.2));
-    z-index: 1;
+    background: linear-gradient(180deg, transparent 50%, rgba(0, 0, 0, .35));
+
     opacity: 1;
 }
 
@@ -466,6 +537,7 @@
 }
 
 #list1_main {
+    cursor: pointer;
     width: 100%;
     height: 163.241px;
     display: flex;
@@ -556,6 +628,7 @@
     width: 100%;
     height: 640px;
     margin-top: 24px;
+    cursor: pointer;
 }
 
 #image_2>span>img {
@@ -573,8 +646,8 @@
     left: 223px;
     bottom: 342.199px;
     right: 79.410px;
-    background: linear-gradient(to top, rgba(81, 81, 81, 0.3), rgba(115, 115, 115, 0.2));
-    z-index: 2;
+    background: linear-gradient(180deg, transparent 50%, rgba(0, 0, 0, .35));
+
     opacity: 1;
 }
 
@@ -698,7 +771,8 @@
     background-color: rgb(229, 0, 16);
     color: white;
     border-radius: 20px;
-    border: rgb(229, 0, 16) ;
+    border: rgb(229, 0, 16);
+    cursor: pointer;
 
 }
 
@@ -706,7 +780,7 @@
     width: 66px;
     height: 41px;
     padding-left: 16px;
-
+    cursor: pointer;
     border: 1px solid rgb(34, 34, 34);
 
 
@@ -724,7 +798,7 @@
     width: 91px;
     height: 41px;
     padding-left: 16px;
-
+    cursor: pointer;
     border: 1px solid rgb(34, 34, 34);
 
 
@@ -744,7 +818,7 @@
     padding-left: 16px;
 
     border: 1px solid rgb(34, 34, 34);
-
+    cursor: pointer;
 
     font-family: "HM Sans Latin SemiBold";
     font-size: 16px;
@@ -760,7 +834,7 @@
     width: 125px;
     height: 41px;
     padding-left: 16px;
-
+    cursor: pointer;
     border: 1px solid rgb(34, 34, 34);
 
 
@@ -780,7 +854,7 @@
     padding-left: 16px;
     /* border: none; */
     border: 1px solid rgb(34, 34, 34);
-
+    cursor: pointer;
 
     font-family: "HM Sans Latin SemiBold";
     font-size: 16px;
@@ -825,6 +899,7 @@
 #img2_4 {
     width: 100%;
     height: 100%;
+    cursor: pointer;
 
 }
 
@@ -849,6 +924,7 @@
     font-weight: 400;
     text-align: start;
     color: rgb(34, 34, 34);
+    cursor: pointer;
 }
 
 #list2_text1>p:nth-child(2),
@@ -862,10 +938,12 @@
     text-align: start;
     color: rgb(34, 34, 34);
 }
+
 #image_3 {
     width: 100%;
     height: 640px;
     margin-top: 24px;
+    cursor: pointer;
 }
 
 #image_3>span>img {
@@ -883,8 +961,7 @@
     left: 223px;
     bottom: 342.199px;
     right: 79.410px;
-    background: linear-gradient(to top, rgba(81, 81, 81, 0.3), rgba(115, 115, 115, 0.2));
-    z-index: 2;
+    background: linear-gradient(180deg, transparent 50%, rgba(0, 0, 0, .35));
     opacity: 1;
 }
 
@@ -970,10 +1047,12 @@
     text-align: center;
     color: #222222;
 }
+
 #image_4 {
     width: 100%;
     height: 640px;
     margin-top: 24px;
+    cursor: pointer;
 }
 
 #image_4>span>img {
@@ -991,8 +1070,7 @@
     left: 223px;
     bottom: 342.199px;
     right: 79.410px;
-    background: linear-gradient(to top, rgba(81, 81, 81, 0.3), rgba(115, 115, 115, 0.2));
-    z-index: 2;
+    background: linear-gradient(180deg, transparent 50%, rgba(0, 0, 0, .35));
     opacity: 1;
 }
 
@@ -1060,7 +1138,8 @@
     font-size: 20px;
     line-height: 24px;
     font-weight: 400;
-    color: white;text-align: center;
+    color: white;
+    text-align: center;
 }
 
 #otherdiv_5_footer>p {
@@ -1077,10 +1156,12 @@
     text-align: center;
     color: #222222;
 }
+
 #image_5 {
     width: 100%;
     height: 640px;
     margin-top: 24px;
+    cursor: pointer;
 }
 
 #image_5>span>img {
@@ -1097,9 +1178,7 @@
     top: 4633px;
     left: 223px;
     bottom: 342.199px;
-    right: 79.410px;
-    background: linear-gradient(to top, rgba(81, 81, 81, 0.3), rgba(115, 115, 115, 0.2));
-    z-index: 2;
+    background: linear-gradient(180deg, transparent 50%, rgba(0, 0, 0, .35));
     opacity: 1;
 }
 
@@ -1170,7 +1249,8 @@
     color: white;
     text-align: center;
 }
-#otherdiv_6_bt{
+
+#otherdiv_6_bt {
     width: 32%;
     margin: auto;
     /* border: 1px solid; */
@@ -1184,7 +1264,7 @@
     height: 16px;
     padding: 8px 8px 8px 8px;
     margin: auto;
- 
+
     background-color: white;
     font-family: "HM Sans Latin SemiBold";
     font-size: 16px;
@@ -1193,12 +1273,13 @@
     text-align: center;
     color: #222222;
 }
+
 #otherdiv_6_bt>p:nth-child(2) {
     width: 122.782px;
     height: 16px;
     padding: 8px 8px 8px 8px;
     margin: auto;
- 
+
     background-color: white;
     font-family: "HM Sans Latin SemiBold";
     font-size: 16px;
@@ -1207,6 +1288,7 @@
     text-align: center;
     color: #222222;
 }
+
 #row_img_3 {
     width: 100%;
     height: 500px;
@@ -1264,6 +1346,7 @@
 #img3_4 {
     width: 100%;
     height: 100%;
+    cursor: pointer;
 
 }
 
@@ -1288,6 +1371,7 @@
     font-weight: 400;
     text-align: start;
     color: rgb(34, 34, 34);
+    cursor: pointer;
 }
 
 #list3_text1>p:nth-child(2),
