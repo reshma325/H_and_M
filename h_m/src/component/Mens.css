@@ -62,10 +62,7 @@
     color: rgb(34, 34, 34);
 }
 
-#m_side2>dt,
-#m_side3>dt,
-#m_side4>dt,
-#m_side5>dt {
+#m_side2>dt {
     width: 100%;
     height: 23px;
     margin-bottom: 8px;
@@ -79,10 +76,7 @@
 }
 
 #m_side1>dd,
-#m_side2>dd,
-#m_side3>dd,
-#m_side4>dd,
-#m_side5>dd {
+#m_side2>dd {
     width: 100%;
     height: 16px;
     cursor: pointer;
@@ -94,6 +88,11 @@
     color: rgb(34, 34, 34);
     text-align: left;
 
+}
+#m_side1>dd:hover,
+#m_side2>dd:hover{
+    color: rgb(229, 0, 16);
+    text-decoration: underline;
 }
 
 #men_body {

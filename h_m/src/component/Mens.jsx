@@ -24,13 +24,13 @@ const Mens = () => {
             <dd>Clothes</dd>
             <dd>Shoes & Accessories</dd>
           </dl>
-          <dl id='m_side3'>
+          <dl id='m_side2'>
             <dt>Trending now</dt>
             <dd>
               Trending now
             </dd>
           </dl>
-          <dl id='m_side4'>
+          <dl id='m_side2'>
             <dt>Shop by Product</dt>
             <dd> View All</dd>
             <dd>T-shirts & Tops</dd>
@@ -56,7 +56,7 @@ const Mens = () => {
             <dd></dd>
             <dd></dd>
           </dl>
-          <dl id='m_side5'>
+          <dl id='m_side2'>
             <dt>Sustainability</dt>
             <dd>
               H&M Take Care

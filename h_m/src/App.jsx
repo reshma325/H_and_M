@@ -13,9 +13,11 @@ import SingleProduct from './component/SingleProduct';
 function App() {
   return (
     <div className="App">
+  
      
       <Header/>
       <Routes>
+        
      
       <Route path='/'element={<Homepage/>} />
       <Route path='/signin'element={<SignIn/>} />
