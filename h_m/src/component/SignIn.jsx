@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react'
-import "../component/SignIn.css"
+import "../component/SignIn.css";
 import close from '../images/close.png'
 import { useNavigate } from 'react-router-dom'
 import api from './Helper/AxiosConfig.js'
@@ -9,7 +9,7 @@ import toast from 'react-hot-toast'
 const SignIn = () => {
     const router = useNavigate();
     const [memberData,setMemberData]=useState();
-    const{state,Login}=useContext(AuthContext);
+    const{Login}=useContext(AuthContext);
     const change=(event)=>{
         setMemberData({...memberData,  [event.target.name]: event.target.value})
     }
@@ -33,7 +33,9 @@ const SignIn = () => {
                        toast.error("something went wrong,try again later")
                     }
                 } catch (error) {
-                    toast.error()
+                  
+                    toast.error(error?.message)
+                    console.log(error, "error here !")
                     
                 }
             }else{
@@ -72,7 +74,7 @@ const SignIn = () => {
                             </div>
                             <div id='form_2'>
                                 <p>Password  <span>*</span> </p>
-                                <input onChange={change} name='password' type='password'  ></input>
+                                < input onChange={change} name='password' type='password' /> 
 
                             </div>
                             <div id='form_3'>
