@@ -61,7 +61,7 @@
 
 #h_t_middle {
    
-    width: 36%;
+    width: 33%;
     height: 67px;
 
 
@@ -96,27 +96,31 @@
 
 #h_t_right {
  
-    width: 33%;
+    width: 36%;
     height: 27px;
      display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-top: 10px;
+    /* border: 1px solid red; */
    
 
 }
-#main_h_t_right_l{
+#main_h_t_right_l,#if{
   cursor: pointer;
     margin-left: 28%;
     display: flex;
     height: 24px;
+    margin-right: 10px;
     cursor: pointer;
+
 
 }
 
-#main_h_t_right_l>img{
+
+#main_h_t_right_l>img,#if>img{
     width: 20px;
     height: 20px;
-   
+   /* border: 1px solid red; */
     margin-right: 8px;
    
 }
@@ -127,16 +131,37 @@
     margin-right: 8px;
 
 }
-#main_h_t_right_l>p,#main_h_t_right_m>p{
+#main_h_t_right_l>p,#if>p{
     font-family: "HM Sans Regular";
     /* font-family: HM Sans Regular, HMSansHebrew-Regular, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, Osaka, メイリオ, Meiryo, ＭＳ Ｐゴシック, MS PGothic, sans-serif; */
     font-size: 13px;
     font-weight: 400;
     padding-top: 5%;
     line-height: 16px;
+    white-space: nowrap;
+    /* border: 1px solid red; */
+    
+}
+#main_h_t_right_m>p{
+    font-family: "HM Sans Regular";
+    /* font-family: HM Sans Regular, HMSansHebrew-Regular, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, Osaka, メイリオ, Meiryo, ＭＳ Ｐゴシック, MS PGothic, sans-serif; */
+    font-size: 13px;
+    font-weight: 400;
+    padding-top: 5%;
+    line-height: 16px;
+
     
     
 
+}
+#main_h_t_right_m{
+    /* border: 1px solid green; */
+    width: 95px;
+    margin-right: 10px;
+}
+#main_h_t_right_r{
+    /* border: 1px solid black; */
+    width: 136px;
 }
 #main_h_t_right_r>p{
     font-family: "HM Sans Regular";
@@ -145,6 +170,7 @@
     font-weight: 400;
     padding-top: 3%;
     line-height: 16px;
+    white-space: nowrap;
 
 }
 #main_h_t_right_m,#main_h_t_right_r{

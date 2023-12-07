@@ -245,18 +245,22 @@
     font-weight: 500;
     text-align: center;
     cursor:pointer;
+    /* border: 2px solid rgb(0, 255, 0); */
 }
 
 #member {
-    width: 436px;
+    width: 434px;
     height: 115px;
-    padding-top: 16px;
+   margin: auto;
+    /* padding-top: 16px; */
     /* border: 1px solid; */
 }
 
 #member_top {
-    width: 402.5px;
+  
+    width:402px;
     height: 16px;
+    margin-top: 16px;
     border: 1px solid rgb(34, 34, 34);
     padding: 16px;
     cursor: pointer;

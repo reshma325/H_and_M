@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './Header.css'
 
 import dots from '../images/dots.png'
@@ -7,13 +7,15 @@ import like from '../images/like.png'
 import bag from '../images/bag.png'
 import search from '../images/search.png'
 import { useNavigate } from 'react-router-dom'
+import { AuthContext } from './Context/AuthContext'
 
 
 
 
 const Header = () => {
-  const router=useNavigate()
-   
+  const router = useNavigate();
+  const { Logout, state } = useContext(AuthContext)
+
 
   return (
     <div id='screen'>
@@ -30,28 +32,34 @@ const Header = () => {
           <p></p>
           <p></p>
           <p></p>
-         
+
           {/* <li >Customer Service</li>
           <li>Newsletter</li>
           <li>Find a store</li>
           <li> <img src={dots} alt=''>
           </img></li> */}
-         
+
         </div>
         <div id='h_t_middle'>
-          <img  onClick={()=>router('/')} src="https://upload.wikimedia.org/wikipedia/commons/5/53/H%26M-Logo.svg" alt='Logo'></img>
+          <img onClick={() => router('/')} src="https://upload.wikimedia.org/wikipedia/commons/5/53/H%26M-Logo.svg" alt='Logo'></img>
         </div>
         <div id='h_t_right'>
-          <div id='main_h_t_right_l' onClick={()=>router('/signin')} >
-            
+          {state?.member?.id ? <>
+          <div id='main_h_t_right_l' onClick={Logout} >
 
-           
-            <img src={user} alt=''>
-
-            </img>
-            <p>Sign In</p>
+            <img src={user} alt='' />
+            <p >Logout</p> </div>
+            </>:   <div id='if' onClick={() => router('/signin')}> 
+            <img src={user} alt='' />
+            <p >Sign In</p>
             
-          </div>
+            </div>}
+
+
+
+
+
+         
           <div id='main_h_t_right_m'>
             <img src={like} alt=''>
 
@@ -60,7 +68,7 @@ const Header = () => {
 
           </div>
           <div id='main_h_t_right_r'>
-          {/* <FontAwesomeIcon icon={faHeart} /> */}
+            {/* <FontAwesomeIcon icon={faHeart} /> */}
             <img src={bag} alt=''>
 
             </img>
@@ -74,7 +82,7 @@ const Header = () => {
       <div id='header_bottom'>
         <div id='h_b_left'>
           <li>Ladies</li>
-          <li onClick={()=>router('/mens')}>Men</li>
+          <li onClick={() => router('/mens')}>Men</li>
           <li>Divided</li>
           <li>Baby</li>
           <li>Kids</li>
@@ -85,15 +93,15 @@ const Header = () => {
         </div>
         <div id='h_b_right'>
           <div id='search'>
-            <img src={search} alt=''/>
+            <img src={search} alt='' />
             <p>  Search products</p>
-         
+
           </div>
         </div>
       </div>
-     
+
     </div>
-    
+
   )
 }
 

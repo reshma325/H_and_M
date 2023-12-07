@@ -1,21 +1,24 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './SignIn'
 import "../component/Homepage.css"
 import right from '../images/right_arrow.png'
 import down from '../images/down.png'
+import { AuthContext } from './Context/AuthContext.jsx'
 
 
 
 
 const Homepage = () => {
+    
 
   return (
     <div id='home_screen' >
-       
+    
       <div id='home_main'>
         <div id='t_bar'>
           <p>Members get free shipping above Rs.1999</p>
           <p>Free & flexible 15 days return</p>
+       
           <p>Download the H&M App</p>
 
         </div>
